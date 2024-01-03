@@ -1,0 +1,29 @@
+section {
+    background-image: url("../images/123.jpg");
+    background-color: blueviolet;
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.santa {
+    width: 100px;
+    position: relative;
+    animation: santagoing 10s infinite;
+}
+@keyframes santagoing {
+    from {top: 0px; left: 0px;}
+    to {top:0px; left: 1500px}
+}
+.christmas {
+    color: red;
+    width:300px;
+    height: 200px;
+    font-size:large;
+    transition: all 3s ease-in 1s;
+}
+.christmas:hover {
+    font-size: xx-large;
+    color:yellow;
+}
